@@ -1,5 +1,2 @@
 <app-formulario (transfere)="transferir($event)"></app-formulario>
-
-<p>Valor: {{ transfere?.valor }}</p>
-
-<p>Destino: {{ transfere?.destino }}</p>
+<app-extrato [transfere]="transfere"></app-extrato> 
